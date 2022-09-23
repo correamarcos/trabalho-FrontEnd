@@ -1,0 +1,210 @@
+/* body{
+    font-family: sans-serif;
+}
+
+h2{
+    display: inline-block; 
+    padding: 5px 12px 5px 12px;
+    font-size: 20px;
+    vertical-align: middle;
+    border-bottom: 2px solid #000;
+}
+
+h2:visited{
+    border-bottom: 4px solid #000;
+}
+
+header{
+    background-image: linear-gradient(to bottom right, #0e5073, #0f171e);
+}
+
+#filter{
+    vertical-align: middle;
+    height: 50px;
+}
+
+#container {
+    width: 35.3%;
+    text-align: left;
+    background-color: #0f171e;
+}
+
+#profile-photo{
+    width: 50px;
+    display: inline-block;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+#name-user{
+    display: inline-block; font-size: 20px;
+}
+#settings{
+    float: right;
+}
+#qtd-list{
+    display: inline-block;
+}
+#btn-filter{   
+    float: right;
+    vertical-align: middle;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.box{
+    display: inline-block
+}
+
+.image-item{
+    width: 250px;
+    height: 140.63px;
+    display: inline-block;
+}
+.background-item-list{
+    background-color: #1b2530;
+    margin-bottom: 5px;
+}
+#data-episode{
+    display: inline-block;
+    width: 250px;
+    height: 140.63px;
+    background-color: #1b2530;
+    border: 0;
+    margin:0;
+    padding: 0;    
+}
+.title-serie{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+}
+#preview{
+    display: inline-block;
+    background-color: #1b2530;
+    
+}
+
+.options{
+    float: right;
+}
+.icon-prime{
+    display: inline-block;
+    vertical-align: top;
+} */
+
+@media only screen and (max-width: 540px) {
+    body{
+        font-family: sans-serif;
+    }
+    
+    h2{
+        display: inline-block; 
+        padding: 5px 12px 5px 12px;
+        font-size: 20px;
+        vertical-align: middle;
+        border-bottom: 2px solid #000;
+    }
+    
+    h2:visited{
+        border-bottom: 4px solid #000;
+    }
+    
+    header{
+        background-image: linear-gradient(to bottom right, #0e5073, #0f171e);
+    }
+    
+    #filter{
+        vertical-align: middle;
+        height: 50px;
+    }
+    
+    #container {
+        width: 100%;
+        text-align: left;
+        background-color: #0f171e;
+    }
+    
+    #profile-photo{
+        width: 50px;
+        display: inline-block;
+        margin-right: 16px;
+        vertical-align: middle;
+    }
+    #name-user{
+        display: inline-block; font-size: 20px;
+    }
+    #settings{
+        float: right;
+    }
+    #qtd-list{
+        display: inline-block;
+    }
+    #btn-filter{   
+        float: right;
+        vertical-align: middle;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+    
+    .box{
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .image-item{
+        width: 100%;        
+    }
+    .background-item-list{
+        background-color: #1b2530;        
+        margin-bottom: 5px;
+    }
+
+    #data-episode{
+        padding-left: 8px;
+        width: 50%;
+        background-color: #1b2530;        
+    }
+    #data-episode h1{
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        font-size: 17px;
+        padding-top: 10px;  
+    }
+    #data-episode > p{
+        font-size: 15px;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        margin-top: 10px;
+    }
+    .ano-lancamento{
+        color: rgba(204, 204, 204, 0.63);        
+    }
+    .icon-prime{
+        color: #00a7e0;
+        font-weight: 600;        
+    }
+   
+
+    
+    .title-serie{
+        display: inline-block;
+        font-size: 20px;
+        color: white;
+    }
+    #preview{
+        display: inline-block;
+        vertical-align: center;
+        width: 45%;
+        background-color: #1b2530;        
+    }
+    
+    .options{
+        float: right;
+        color: rgba(255, 255, 255, 0.53);
+    }
+    .icon-prime{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+}
