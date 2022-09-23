@@ -291,4 +291,18 @@ header{
         vertical-align: top;
     }
 
+    footer{
+        background-color: #000;
+        color: rgba(255, 255, 255, 0.578);
+        height: 50px;
+        vertical-align: middle;
+    }
+    .icon-botton-navbar{
+        vertical-align: middle;
+        text-align: center;
+        font-size: 25px;      
+        width: 24%;
+        margin-top: 10px;
+    }
+
 }
