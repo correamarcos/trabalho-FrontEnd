@@ -379,3 +379,132 @@ footer{
     margin-right: 100px;
     color: #7f95a2;
 }
+
+* {
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+.banner{
+    background-image: url("/img/episode.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 30%;
+}
+
+.background{
+    background-image: linear-gradient(to bottom, #ffffff00, #1b2530);
+    height: 100%;
+}
+
+.main{
+        background-image: linear-gradient(to bottom, #1b2530, #0f171e);
+    height: 100%;
+    width: 30%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    color: white;
+    padding-top: 210px;
+    margin-bottom: 30px;
+    font-family: Montserrat;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.season{
+    display: inline-flex;
+    margin-left: 20px;
+    color: white;
+    vertical-align: middle;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.content{
+    display: bloc;
+    justify-content: center;
+    margin-left: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.plataform{
+    color: #0F79AF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.watch-btn{
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+    text-align: start;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 88%;
+    height: 45px;
+    background-color: #0F79AF;
+    border-radius: 2px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn-row{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px 0 50px 0;
+    color: white;
+    text-align: center;
+}
+
+
+.rounded-btn{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: #0f7aaf00;
+    border: 1px solid white;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    width: 28%;
+    color: white;
+    font-size: 12px;
+    padding: 0 13.5px;
+}
+
+.nav-row{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
